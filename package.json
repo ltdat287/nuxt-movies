@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "@nuxt/sigma": "^0.0.65",
+    "@nuxtjs/sitemap": "latest",
     "@nuxtjs/eslint-config": "latest",
     "@nuxtjs/pwa": "^3.3.2",
     "eslint": "latest",

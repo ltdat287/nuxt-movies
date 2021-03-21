@@ -21,6 +21,7 @@ export default {
     '@nuxtjs/pwa'
   ],
 
+  modules: ['@nuxtjs/sitemap'],
   /*
   ** Global Plugins
   */
@@ -38,6 +39,12 @@ export default {
     '~/assets/css/global.scss'
   ],
 
+  sitemap: {
+    hostname: process.env.FRONTEND_URL || '',
+    gzip: true,
+    exclude: ['/secret', '/admin/**'],
+    routes: ['/'],
+  },
   /*
   ** Headers of the page
   */
