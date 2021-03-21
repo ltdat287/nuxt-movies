@@ -1,7 +1,7 @@
 {
   "name": "nuxt-movies",
   "private": true,
-  "author": "Jason Ujma-Alvis",
+  "author": "FunFeeds",
   "contributors": [
     "Pooya Parsa <pooya@nuxtjs.com>"
   ],
@@ -14,9 +14,9 @@
   },
   "devDependencies": {
     "@nuxt/sigma": "^0.0.65",
-    "@nuxtjs/sitemap": "latest",
     "@nuxtjs/eslint-config": "latest",
     "@nuxtjs/pwa": "^3.3.2",
+    "@nuxtjs/sitemap": "latest",
     "eslint": "latest",
     "node-sass": "latest",
     "nodemon": "latest",
