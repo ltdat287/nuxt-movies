@@ -21,6 +21,7 @@ export default {
     '@nuxtjs/pwa'
   ],
 
+  modules: ['@nuxtjs/sitemap'],
   /*
   ** Global Plugins
   */
@@ -37,6 +38,12 @@ export default {
     '~/assets/css/global.scss'
   ],
 
+  sitemap: {
+    hostname: process.env.FRONTEND_URL || '',
+    gzip: true,
+    exclude: ['/secret', '/admin/**'],
+    routes: ['/'],
+  },
   /*
   ** Headers of the page
   */
@@ -46,18 +53,18 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Browse Movies, TV Shows and People' },
-      { hid: 'author', name: 'author', content: 'Jason Ujma-Alvis' },
+      { hid: 'author', name: 'author', content: 'FunFeeds' },
       { hid: 'og:locale', property: 'og:locale', content: 'en_GB' },
       { hid: 'og:title', property: 'og:title', content: 'Movies App' },
       { hid: 'og:description', property: 'og:description', content: 'Browse Movies, TV Shows and People' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:url', property: 'og:url', content: 'https://movies.jason.codes/' },
+      { hid: 'og:url', property: 'og:url', content: 'https://fun-feeds.com/' },
       { name: 'twitter:card', content: 'summary' },
       { name: 'twitter:title', content: 'Movies' },
       { name: 'twitter:description', content: 'Browse Movies, TV Shows and People' },
       { name: 'twitter:site', content: '@jasonujmaalvis' },
       { name: 'twitter:creator', content: '@jasonujmaalvis' },
-      { name: 'twitter:image', content: 'https://movies.jason.codes/icon-medium.png' }
+      { name: 'twitter:image', content: 'https://fun-feeds.com/icon-medium.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
