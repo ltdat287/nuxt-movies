@@ -13,17 +13,16 @@
     "start": "nuxt start"
   },
   "devDependencies": {
-    "@nuxt/sigma": "^0.0.65",
     "@nuxtjs/eslint-config": "latest",
     "@nuxtjs/pwa": "^3.3.2",
     "@nuxtjs/sitemap": "latest",
+    "@nuxtjs/tailwindcss": "^4.1.3",
     "eslint": "latest",
     "node-sass": "latest",
     "nodemon": "latest",
-    "nuxt": "^2.14.11",
+    "nuxt": "^2.15.3",
     "ohmyfetch": "^0.0.4",
     "sass-loader": "latest",
-    "sigma": "^2.0.0-alpha40",
     "smoothscroll-polyfill": "^0.4.3",
     "tiny-cookie": "^2.3.1"
   },

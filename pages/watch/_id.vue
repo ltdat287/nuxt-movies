@@ -1,5 +1,5 @@
 <template>
-  <main class="main">
+  <main class="main min-h-screen">
     <TopNav
       :title="metaTitle"
     />
