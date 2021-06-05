@@ -26,5 +26,9 @@
     "sigma": "^2.0.0-alpha40",
     "smoothscroll-polyfill": "^0.4.3",
     "tiny-cookie": "^2.3.1"
+  },
+  "dependencies": {
+    "@types/video.js": "^7.3.19",
+    "video.js": "^7.6.5"
   }
 }

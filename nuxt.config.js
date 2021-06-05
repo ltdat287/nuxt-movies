@@ -42,7 +42,7 @@ export default {
     hostname: process.env.FRONTEND_URL || '',
     gzip: true,
     exclude: ['/secret', '/admin/**'],
-    routes: ['/'],
+    routes: ['/']
   },
   /*
   ** Headers of the page
